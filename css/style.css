@@ -1,0 +1,117 @@
+body{
+    color: white;
+    background: #000 url(../img/43d30636-021.png) no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.header{
+    
+}
+p{
+    margin-bottom: 20px;
+}
+.img_header{
+    margin-left: 20px;
+}
+.img_cont{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 25px 0 0 100px;
+    
+}
+.cont_1{
+    margin-top: 5%;
+    text-align: center;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont_1 h1{
+    font-family:"Bebas Neue Bold", serif;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+.certificate p{
+    margin-top: 0;
+    font-family: "TT Commons Bold", serif;
+
+}
+.certificate{
+
+    text-align: center;
+    font-size: 32px;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.took{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'TT Commons Regular';
+
+}
+.seminar_name{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'TT Commons Regular';
+
+}
+.date{
+    font-size: 25px;
+    text-align: center;
+    font-family: "TT Commons Bold", serif;
+}
+.rector{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    font-family: "TT Commons Bold", serif;
+}
+.signature_seal_1{
+    position: relative;
+    left: 300px;
+}
+.signature_seal_2{
+    position: relative;
+    left: 135px;
+}
+
+
+
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeueBold.woff') format('woff'),
+    url('../fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+@font-face {
+     font-family: 'TT Commons Bold';
+     src: url('../fonts/TTCommons-Bold.eot');
+     src: url('TTCommons-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTCommons-Bold.woff') format('woff'),
+    url('../fonts/TTCommons-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'TT Commons Regular';
+        src: url('../fonts/TTCommons-Regular.eot');
+        src: url('TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTCommons-Regular.woff') format('woff'),
+        url('../fonts/TTCommons-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
